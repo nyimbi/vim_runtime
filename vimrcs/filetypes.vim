@@ -1,3 +1,6 @@
+" File              : vimrcs/filetypes.vim
+" Date              : 23.03.2018
+" Last Modified Date: 23.03.2018
 """"""""""""""""""""""""""""""
 " => Python section
 """"""""""""""""""""""""""""""
@@ -77,3 +80,8 @@ endif
 " => Twig section
 """"""""""""""""""""""""""""""
 autocmd BufRead *.twig set syntax=html filetype=html
+
+"""""""""""""""""""""""""""""""
+" => YAML Section
+" """"""""""""""""""""""""""""""
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab

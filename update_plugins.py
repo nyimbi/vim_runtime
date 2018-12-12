@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# File              : update_plugins.py
+# Date              : 08.12.2018
+# Last Modified Date: 08.12.2018
 try:
     import concurrent.futures as futures
 except ImportError:
